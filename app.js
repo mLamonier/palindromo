@@ -12,7 +12,7 @@ function palindromo(){
     //reverse = inverte a ordem dos arrays
     //join = cria uma string baseado na ordem do array
 
-    if(reverseStr === lowRegStr){ //reverseStr é idêntico a loRegStr?
+    if(reverseStr === lowRegStr){ //reverseStr é idêntico a lowRegStr?
         alert('A palavra/frase É um palíndromo!');
         document.getElementById('palindromo').value = '';
     } else {
